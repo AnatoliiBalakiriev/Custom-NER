@@ -164,10 +164,11 @@ def get_relation(sent):
   matcher.add("matching_1",[pattern]) 
 
   matches = matcher(doc)
+  if not matches:
+      return ""
   k = len(matches) - 1
-  
-  span = doc[matches[k][1]:matches[k][2]] 
-  
+  span = doc[matches[k][1]:matches[k][2]]
+
   return(span.text)
 
 # if len(doc) !=0:

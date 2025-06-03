@@ -17,7 +17,7 @@ Machine Learning NER Custom Model and Network Graph Visualization
     • find and visualize links between Named Entities on the link chart;
     • to accumulate detected Named Entities into local or cloud store.
 # MAIN PART
-	So, as a base of NER system we take the folloving steps:
+	So, as a base of NER system we take the following steps:
 	1. We take spaCy model "en_core_web_lg";
 	2. Then we add custom labels that are absent in standard model (in our case "DRUG" and "GANG_ORG");
  	3. We add entity_ruler which can be combined with the statistical EntityRecognizer to boost accuracy, or used on its own to implement a purely rule-based entity recognition system

@@ -34,3 +34,9 @@ Training data is prepared in Data Studio application with help of predictions, g
 2. To implement Entity Linker based on semantic links in sentences and the whole text.
 3. To implement storing results of NER to the local or cloud-based Database.
 
+## Running Tests
+Install pytest and run:
+
+```bash
+pytest
+```

@@ -27,7 +27,7 @@ Machine Learning NER Custom Model and Network Graph Visualization
    	7. We test the model with new unseen data
     	8. We build graph chart with recognized Named Entities
 All above-mentioned steps contained in "Training_of_the_Custom_Model_1-Copy1.ipynb" notebook in this repo.
-Front-end of the model developed in Streamlit. You can find it in Python files "upl_8.py", "custom_scorer_2.py"in 
+Front-end of the model is developed in Streamlit. You can find it in the Python files `upl_8_copy.py` and `custom_scorer_2_copy.py`.
 Training data is prepared in Data Studio application with help of predictions, generated with script of "preannotated.py"
 # What is left to do?
 1. To implement NER coreference system.
